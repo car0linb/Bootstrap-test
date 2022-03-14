@@ -1,29 +1,36 @@
 
 
+.container{
+    min-height: 75vh;
+}
+
+
+
 .carousel {
     width:100%;
     min-height: 75vh;
 
-    .carousel-item{
-        
-        img{
-            size: 50%;
-        }
+}
 
-    }
-
-  }
 
   
 
-  .card{
+.card{
       padding: 15px;
-      margin: 25px;
-  }
+      margin: 15px;
+}
 
-  .newsletter{
+.newsletter{
       background-image: url(../Images/newsletterBG.jpg);
       background-repeat: no-repeat;
       background-size: cover;
 
-  }
+}
+
+.gallery{
+
+      .card{
+          background-color: #f3f3f3;
+         
+      }
+}
